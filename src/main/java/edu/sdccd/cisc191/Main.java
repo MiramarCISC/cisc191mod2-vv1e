@@ -55,7 +55,7 @@ public class Main {
      */
 
     /**
-     * Parses a Student Array into a multi-line string, with each line
+     * Parses a Student List into a multi-line string, with each line
      * containing a Student::toString representation.
      */
     private static String getStudentsAsLines(List<Student> students) {
