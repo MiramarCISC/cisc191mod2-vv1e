@@ -5,9 +5,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class StudentAnalyzer {
-    // NOTE: I used lambdas instead of method references due to the assignment requiring lambdas to be used.
-    // Ideally, one would call filter::test or Collectors.averagingDouble() instead of using lambdas.
-
     static List<Student> filter(List<Student> students, StudentFilter filter) {
         return students.stream()
             .filter(filter::test)
